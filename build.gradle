@@ -23,8 +23,12 @@ dependencies {
 }
 
 test {
+    testLogging {
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
     finalizedBy jacocoTestReport
 }
+
 jacocoTestReport {
     dependsOn test
      reports {
