@@ -10,6 +10,6 @@ public class MathService {
         return firstNumber - secondNumber;
     }
     public static void main(String [] args) {
-        System.out.println("this is fu******* working");
+        System.out.println("code is working fine");
     }
 }
