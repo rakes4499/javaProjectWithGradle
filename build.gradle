@@ -34,7 +34,7 @@ jacocoTestReport {
      reports {
         xml.enabled = true
         html.enabled = true
-        xml.destination file("${buildDir}/reports/jacoco.xml", "${buildDir}/reports/help/jacoco.xml")
+        xml.destination file("${buildDir}/reports/jacoco.xml")
     }
 }
 check.dependsOn jacocoTestReport
